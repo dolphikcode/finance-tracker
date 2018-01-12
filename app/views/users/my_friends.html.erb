@@ -1,0 +1,9 @@
+<%= render 'friends/lookup' %>
+<% if @friendships.size > 0 %>
+	<%= render 'friends/friendslist' %>
+<% else %>
+	<div class="row col-lg-12">
+		<p class="lead">You don't have any friends yet. Please add some!</p>
+	</div>
+<% end %>
+

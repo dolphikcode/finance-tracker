@@ -11,6 +11,7 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
+gem 'font-awesome-rails'
 # Stock import from Yahoo
 gem 'stock_quote'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
